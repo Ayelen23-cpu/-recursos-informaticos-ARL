@@ -1,113 +1,39 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <title>Horario</title>
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Informáticos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header>
+        <h1>Recursos Informáticos</h1>
+        <p>Recursos útiles para aprender informática.</p>
+    </header>
 
-    <h2> Horario DAW1a</h2>
-
-    <table>
-
-        <caption>Horas de clase de 1º DAW</caption>
-
-        <thead>
-            <tr>
-                <th>Hora</th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-            </tr>
-        </thead>
-
-        <tbody>
-
-            <tr>
-                <td>8:00 - 8:55</td>
-                <td></td>
-                <td>LM<br>Muñoz Brezmes Susana</td>
-                <td>LM<br>Muñoz Brezmes Susana</td>
-                <td>PROG<br>Linares Riestra Simon</td>
-                <td>IPE I<br>Satorre Sirvent Mariola</td>
-            </tr>
-
-            <tr>
-                <td>8:55 - 9:50</td>
-                <td>LM<br>Muñoz Brezmes Susana</td>
-                <td>ED<br>Blanquer Javaloyes Roberto</td>
-                <td>IPE I<br>Satorre Sirvent Mariola</td>
-                <td>PROG<br>Linares Riestra Simon</td>
-                <td rowspan="2">PROG<br>Linares Riestra Simon</td>
-            </tr>
-
-            <tr>
-                <td>9:50 - 10:45</td>
-                <td>PROG<br>Linares Riestra Simon</td>
-                <td>SIN<br>Catalá Jiménez Javier</td>
-                <td>SIN<br>Catalá Jiménez Javier</td>
-                <td>Proy1DAW<br>Ruiz Maciá Andrea</td>
-            </tr>
-
-            <tr>
-                <th colspan="6">Recreo</th>
-            </tr>
-
-            <tr>
-                <td>11:10 - 12:05</td>
-                <td>PROG<br>Linares Riestra Simon</td>
-                <td>ING GS<br>Cerezo Plaza Mamen</td>
-                <td>SIN<br>Catalá Jiménez Javier</td>
-                <td>IPE I<br>Satorre Sirvent Mariola</td>
-                <td>ING GS<br>Cerezo Plaza Mamen</td>
-            </tr>
-
-            <tr>
-                <td>12:05 - 13:00</td>
-                <td rowspan="2">BD<br>Bolaños Collado Cristina</td>
-                <td rowspan="2">PROG<br>Linares Riestra Simon</td>
-                <td rowspan="2">BD<br>Bolaños Collado Cristina</td>
-                <td>ED<br>Blanquer Javaloyes Roberto</td>
-                <td rowspan="2">SIN<br>Catalá Jiménez Javier</td>
-            </tr>
-
-            <tr>
-                <td>13:00 - 13:55</td>
-                <td>BD<br>Bolaños Collado Cristina</td>
-            </tr>
-
-            <tr>
-                <th colspan="6">Recreo</th>
-            </tr>
-
-            <tr>
-                <td>14:10 - 15:05</td>
-                <td>ED<br>Blanquer Javaloyes Roberto</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td>Total de horas:</td>
-                <td>6</td>
-                <td>6</td>
-                <td>6</td>
-                <td>6</td>
-                <td>6</td>
-            </tr>
-        </tfoot>
-
-    </table>
-
+    <main>
+        <section>
+            <h2>Recursos recomendados</h2>
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/es/">
+                        MDN Web Docs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://docs.github.com/es">
+                        GitHub Docs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/">
+                        W3Schools
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
-
 </html>
