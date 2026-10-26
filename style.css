@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A207 - Horario DAW1a</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Fila de recreo */
+        tr.recreo th {
+            background-color: #e6e6e6;
+            font-style: italic;
+        }
+
+        /* Estilo para los nombres de profesores */
+        td small {
+            display: block;
+            color: #666;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>A207 - Horario DAW1a</h2>
+
+    <table>
+        <caption>Horas de clase de 1º DAW</caption>
+
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>8:00 - 8:55</td>
+                <td></td>
+                <td>LM<br><small>Muñoz Brezmes Susana</small></td>
+                <td>LM<br><small>Muñoz Brezmes Susana</small></td>
+                <td>PROG<br><small>Linares Riestra Simon</small></td>
+                <td>IPE I<br><small>Satorre Sirvent Mariola</small></td>
+            </tr>
+
+            <tr>
+                <td>8:55 - 9:50</td>
+                <td>LM<br><small>Muñoz Brezmes Susana</small></td>
+                <td>ED<br><small>Blanquer Javaloyes Roberto</small></td>
+                <td>IPE I<br><small>Satorre Sirvent Mariola</small></td>
+                <td>PROG<br><small>Linares Riestra Simon</small></td>
+                <td rowspan="2">PROG<br><small>Linares Riestra Simon</small></td>
+            </tr>
+
+            <tr>
+                <td>9:50 - 10:45</td>
+                <td>PROG<br><small>Linares Riestra Simon</small></td>
+                <td>SIN<br><small>Catalá Jiménez Javier</small></td>
+                <td>SIN<br><small>Catalá Jiménez Javier</small></td>
+                <td>Proy1DAW<br><small>Ruiz Maciá Andrea</small></td>
+            </tr>
+
+            <tr class="recreo">
+                <th colspan="6">Recreo</th>
+            </tr>
+
+            <tr>
+                <td>11:10 - 12:05</td>
+                <td>PROG<br><small>Linares Riestra Simon</small></td>
+                <td>ING GS<br><small>Cerezo Plaza Mamen</small></td>
+                <td>SIN<br><small>Catalá Jiménez Javier</small></td>
+                <td>IPE I<br><small>Satorre Sirvent Mariola</small></td>
+                <td>ING GS<br><small>Cerezo Plaza Mamen</small></td>
+            </tr>
+
+            <tr>
+                <td>12:05 - 13:00</td>
+                <td rowspan="2">BD<br><small>Bolaños Collado Cristina</small></td>
+                <td rowspan="2">PROG<br><small>Linares Riestra Simon</small></td>
+                <td rowspan="2">BD<br><small>Bolaños Collado Cristina</small></td>
+                <td>ED<br><small>Blanquer Javaloyes Roberto</small></td>
+                <td rowspan="2">SIN<br><small>Catalá Jiménez Javier</small></td>
+            </tr>
+
+            <tr>
+                <td>13:00 - 13:55</td>
+                <td>BD<br><small>Bolaños Collado Cristina</small></td>
+            </tr>
+
+            <tr class="recreo">
+                <th colspan="6">Recreo</th>
+            </tr>
+
+            <tr>
+                <td>14:10 - 15:05</td>
+                <td>ED<br><small>Blanquer Javaloyes Roberto</small></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de horas</th>
+                <th>6</th>
+                <th>6</th>
+                <th>6</th>
+                <th>6</th>
+                <th>6</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
